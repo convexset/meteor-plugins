@@ -13,7 +13,7 @@ Package.onUse(function(api) {
 	api.use(
 		[
 			'ecmascript', 'underscore', 'check', 'ejson',
-			'convexset:package-utils@0.1.8',
+			'convexset:package-utils@0.1.9',
 		]
 	);
 	api.addFiles(['plugins.js']);
