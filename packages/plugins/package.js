@@ -1,6 +1,6 @@
 Package.describe({
 	name: 'convexset:plugins',
-	version: '0.1.0_2',
+	version: '0.1.0_3',
 	summary: 'A tool for building simple plugin frameworks',
 	git: 'https://github.com/convexset/meteor-plugins',
 	documentation: '../../README.md'
@@ -12,8 +12,8 @@ Package.onUse(function(api) {
 
 	api.use(
 		[
-			'ecmascript', 'underscore', 'check', 'ejson',
-		'tmeasday:check-npm-versions@0.3.1'
+			'ecmascript', 'check', 'ejson',
+			'tmeasday:check-npm-versions@0.3.1'
 		]
 	);
 	api.addFiles(['plugins.js']);
